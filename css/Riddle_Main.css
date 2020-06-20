@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+a{
+	color: white;
+	/*Find a way to set all links so theyre the same distance from the bottom of the box*/
+}
+
+img{
+	width: 80%;
+}
+
+
+.header{
+	text-align: center;
+	color: white;
+	background-color: #090979;
+	position: sticky;
+	top: 0px;*/
+}
+
+.column{
+	float: left;
+	width: 33.33%;
+	color: white;
+    padding: 15px;
+	height: 500px;
+	text-align: center;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
